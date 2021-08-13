@@ -26,5 +26,11 @@ public class Profesor {
         paralelos.add(p);
     }
     
+    public InformacionAdicionalProfesor getInfo() {
+        return info;
+    }
+
+ 
+
     
 }
