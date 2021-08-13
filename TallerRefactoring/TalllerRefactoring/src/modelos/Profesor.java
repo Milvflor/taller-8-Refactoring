@@ -1,25 +1,13 @@
 package modelos;
 
-import java.util.ArrayList;
 
-public class Profesor {
-    public String codigo;
-    public String nombre;
-    public String apellido;
-    public int edad;
-    public String direccion;
-    public String telefono;
+
+public class Profesor extends Persona{
+   
     public InformacionAdicionalProfesor info;
-    public ArrayList<Paralelo> paralelos;
 
-    public Profesor(String codigo, String nombre, String apellido, String facultad, int edad, String direccion, String telefono) {
-        this.codigo = codigo;
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.edad = edad;
-        this.direccion = direccion;
-        this.telefono = telefono;
-        paralelos= new ArrayList<>();
+    public Profesor() {
+        super();
     }
     
     public void anadirParalelos(Paralelo p){
@@ -28,9 +16,5 @@ public class Profesor {
     
     public InformacionAdicionalProfesor getInfo() {
         return info;
-    }
-
- 
-
-    
+    }    
 }
