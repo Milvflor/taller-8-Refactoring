@@ -9,9 +9,7 @@
 * Ramos Baque Gabriela Regina
 * Valdez Flores Milca Elizabeth
 
-
 **_Paralelo:_** 02
-
 
 **_Profesor:_** MSc. David Jurado
 
