@@ -2,7 +2,7 @@ package modelos;
 import java.util.ArrayList;
 
 public class Persona {
-    //Informacion del estudiante
+    //Informacion de la persona
     public String nombre;
     public String apellido;
     public String facultad;
