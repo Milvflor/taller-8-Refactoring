@@ -12,4 +12,9 @@ public class InformacionAdicionalProfesor {
     public double getBonoFijo() {
         return BonoFijo;
     }
+
+    public double calcularSueldo(Profesor prof){
+        return prof.getInfo().getBonoFijo()*600 + prof.getInfo().getBonoFijo();
+        
+    } 
 }
